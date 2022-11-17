@@ -9,6 +9,12 @@ h1 {
     font-family: 'JetBrains Mono', monospace;
 }
 
+p {
+    color: white;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
 .pic {
     width: 200px;
     height: auto;
