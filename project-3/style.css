@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+    padding-top: 50px;
     color: white;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
@@ -11,4 +12,8 @@ h1 {
 .pic {
     width: 200px;
     height: auto;
+}
+
+.pic:hover {
+  opacity: 0.5;
 }
