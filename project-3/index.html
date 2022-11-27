@@ -11,33 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=JetBrains+Mono&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
 </head>
-<body onload="move('pic')">
+<body>
     <h1>What would you like to purchase today?</h1>
         <a href="page-2.html"><img draggable="true" id="pic" class="pic" src="asset/epipens.png" alt=""></a>
         <a href="page-3.html"><img draggable="true" id="pic" class="pic" src="asset/daraprim.png" alt=""></a>
         <a href="page-4.html"><img draggable="true" id="pic" class="pic" src="asset/insulin.png" alt=""></a>
     
     
-    <script>
-        var dragValue;
-        
-        function move(id) {
-            var element = document.getElementById("pic");
-            element.style.position = "absolute";
-            element.onmousedown = function(){ 
-                dragValue = element;
-                
-            }
-        }
-        document.onmousemove = function(e) {
-            var x = e.pageX;
-            var y = e.pageY;
-            
-            dragValue.style.left = x + "px";
-            dragValue.style.top = y + "px";
-        }
-        
-    </script>
 </body>
     
     
