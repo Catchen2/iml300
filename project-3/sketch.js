@@ -2,7 +2,7 @@
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
-    canvas.postion(0,0);
+    canvas.position(0,0);
     canvas.style('z-index','-1');
 }
 
