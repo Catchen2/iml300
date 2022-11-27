@@ -1,8 +1,7 @@
 
 
 function setup() {
-
-  createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight);
     canvas.postion(0,0);
     canvas.style('z-index','-1');
 }
