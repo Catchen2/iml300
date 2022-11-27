@@ -1,6 +1,10 @@
 
+
 function setup() {
-  createCanvas(windowHeight, windowWidth);
+
+  createCanvas(windowWidth, windowHeight);
+    canvas.postion(0,0);
+    canvas.style('z-index','-1');
 }
 
 function draw() {
