@@ -1,4 +1,4 @@
-function windowResized (){
+function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
