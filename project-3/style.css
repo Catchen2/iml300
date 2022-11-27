@@ -17,8 +17,8 @@ p {
 }
 
 .pic {
-    width: 200px;
-    height: auto;
+    height: 200px;
+    width: auto;
 }
 
 .pic:hover {
