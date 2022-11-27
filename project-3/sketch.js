@@ -8,7 +8,6 @@ function setup() {
 }
 
 function draw() {
-  
   background(0);
 
   for (let a = 60; a < windowHeight; a = a + 60) {
