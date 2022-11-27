@@ -1,5 +1,6 @@
-html {
-  
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -23,3 +24,8 @@ p {
 .pic:hover {
   opacity: 0.5;
 }
+
+canvas {
+  display: block;
+}
+
