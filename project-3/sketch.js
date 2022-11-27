@@ -4,6 +4,8 @@ function setup() {
 }
 
 function draw() {
+  
+  canvas.resize(windowWidth,windowHeight);
   background(0);
 
   for (let a = 60; a < windowHeight; a = a + 60) {
