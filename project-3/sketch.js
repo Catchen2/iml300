@@ -4,10 +4,11 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style("z-index", "-1");
+  canvas.resize(windowWidth, windowHeight);
 }
 
 function draw() {
-  canvas.resize(windowWidth, windowHeight);
+  
   background(0);
 
   for (let a = 60; a < windowHeight; a = a + 60) {
