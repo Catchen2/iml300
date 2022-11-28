@@ -1,59 +1,149 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-    padding-top: 50px;
-    color: white;
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 240%;
+}
+
+.fadein {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 p {
-    color: white;
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
+  color: white;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#meds {
+  display: block;
+  display: flex;
+  position: relative;
+  width: 790px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.addepi {
+  position: relative;
+  display: none;
+  text-align: center;
+  margin-top: -160px;
+  font-size: 120%;
+}
+.adddar {
+  position: relative;
+  display: none;
+  text-align: center;
+  margin-top: -140px;
+  font-size: 120%;
+}
+.addins {
+  position: relative;
+  display: none;
+  text-align: center;
+  margin-top: -120px;
+  font-size: 120%;
+}
+
+.med:hover .name {
+  opacity: 0.7;
+}
+
+#add:hover {
+  color: #9200bf;
+}
+
+.med:hover #add {
+  display: block;
 }
 
 .epi {
-    height: 200px;
-    width: auto;
-}
-.dar {
-  height: 240px;
+  height: 210px;
   width: auto;
-}
-.ins {
-  width: 200px;
-  height: auto;
+  margin: 20px;
+  margin-bottom: 0;
 }
 
-#pic:hover {
-  opacity: 0.5;
+.med:hover .epi {
+  opacity: 0.7;
+}
+
+.dar {
+  height: 180px;
+  width: auto;
+  margin: 20px;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+.med:hover .dar {
+  opacity: 0.7;
+}
+.ins {
+  width: 240px;
+  height: auto;
+  margin: 20px;
+  margin-bottom: 0;
+}
+.med:hover .ins {
+  opacity: 0.7;
+}
+
+#buy {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
 }
 
 .epi2 {
-  width: 250px;
+  width: 240px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 .dar2 {
-  width: 280px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  height: 230px;
+  width: auto;
 }
 .ins2 {
-  height: 200px;
+  height: 210px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
- 
 
 canvas {
   display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover .link {
+  color: #9200bf;
+}
+
+.link {
+  font-size: 130%;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
 }
 
