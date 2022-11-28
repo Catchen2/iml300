@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Pharmacy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
 
-<head>
-    <title>Pharmacy</title>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
-    <script src="sketch.js"></script> 
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=JetBrains+Mono&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
-</head>
-<body>
+    <script src="sketch.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=JetBrains+Mono&family=Roboto&family=Roboto+Mono&family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <h1>What would you like to purchase today?</h1>
-        <a href="page-2.html"><img draggable="true" id="pic" class="epi" src="asset/epipens.png" alt=""></a>
-        <a href="page-3.html"><img draggable="true" id="pic" class="dar" src="asset/daraprim.png" alt=""></a>
-        <a href="page-4.html"><img draggable="true" id="pic" class="ins" src="asset/insulin.png" alt=""></a>
-    
-    
-</body>  
+
+    <div id="meds" class="fadein">
+      <div class="med">
+        <img
+          draggable="true"
+          class="epi"
+          src="epipens.png"
+        />
+
+        <p class="name">Epipens</p>
+        <div>
+          <a href="page-2.html"><p id="add" class="addepi">Add to cart</p></a>
+        </div>
+      </div>
+
+      <div class="med">
+        <img
+          draggable="true"
+          class="dar"
+          src="daraprim.png"
+        />
+        <p class="name">Daraprim</p>
+
+        <div>
+          <a href="page-3.html"><p id="add" class="adddar">Add to cart</p></a>
+        </div>
+      </div>
+
+      <div class="med">
+        <img
+          draggable="true"
+          class="ins"
+          src="insulin.png"
+        />
+        <p class="name">Insulin</p>
+
+        <div>
+          <a href="page-4.html"><p id="add" class="addins">Add to cart</p></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
