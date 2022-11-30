@@ -1,7 +1,7 @@
 html {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #FFFFFF	;
   font-family: "JetBrains Mono", monospace;
 }
 
@@ -87,7 +87,7 @@ p {
 }
 
 #add {
-  color: white;
+  color: #FFFFFF	;
   height: 120px;
 }
 
@@ -175,12 +175,12 @@ canvas {
 
 .link {
   font-size: 140%;
-  color: white;
+  color: #FFFFFF	;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF	;
 }
 
 a:hover {
@@ -201,7 +201,7 @@ a:-webkit-any-link {
 }
 
 .description {
-  color: white;
+  color: #FFFFFF	;
   width: 700px;
   margin: auto;
   font-size: 120%;
