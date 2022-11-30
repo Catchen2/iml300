@@ -7,10 +7,10 @@ html {
 
 .page {
   padding-bottom: 0;
-  background: black;
+  background: #000000	;
   background-size: 60px 60px;
-  background-image: linear-gradient(to right, grey 0.6px, transparent 1px),
-    linear-gradient(to bottom, grey 0.6px, transparent 1px);
+  background-image: linear-gradient(to right, #808080 0.6px, transparent 1px),
+    linear-gradient(to bottom, #808080 0.6px, transparent 1px);
 }
 
 h1 {
@@ -197,7 +197,7 @@ a:-webkit-any-link {
 }
 
 .black {
-  background: black;
+  background: #000000	;
 }
 
 .description {
