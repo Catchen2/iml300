@@ -217,20 +217,67 @@ a:-webkit-any-link {
   text-decoration: underline;
 }
 
+
+
+#solution h2 {
+  overflow: hidden;
+  margin: 0 auto;
+  margin: 15px;
+  animation: typing 1s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
 #solution {
-  width: 820px;
+  width: 540px;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-left:20px;
+  padding-right:20px;
   padding-top: 20px;
+  background:black;
 }
 
 .solution {
   font-size: 160%;
-  text-align: left;
 }
 
 .solution:hover {
   text-decoration: underline;
 }
 
+.top {
+  font-size: 160%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#about {
+  width: 660px;
+  margin: auto;
+  padding-bottom: 40px;
+  font-size: 90%;
+}
+
+#about h2 {
+  overflow: hidden;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 1.2s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.par {
+  padding-top: 35px;
+}
+
+#footer {
+  padding-bottom: 20px;
+}
 
