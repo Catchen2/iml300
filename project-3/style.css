@@ -2,14 +2,20 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color:white;
+  font-family: "JetBrains Mono", monospace;
 }
 
 h1 {
-  padding-top: 100px;
-  color: white;
+  padding-top: 43px;
   text-align: center;
-  font-family: "JetBrains Mono", monospace;
   font-size: 240%;
+}
+
+.title {
+  text-align:center;
+  padding-top:80px;
+  font-size:200%;
 }
 
 .fadein {
@@ -26,9 +32,17 @@ h1 {
 }
 
 p {
-  color: white;
   text-align: center;
   font-family: "JetBrains Mono", monospace;
+}
+
+.basket {
+  display:block;
+  position:relative;
+  width:600px;
+  height:auto;
+  margin:auto;
+  padding-bottom:0;
 }
 
 #meds {
@@ -66,6 +80,10 @@ p {
   opacity: 0.7;
 }
 
+#add {
+  color:white;
+}
+
 #add:hover {
   color: #9200bf;
 }
@@ -85,16 +103,18 @@ p {
   opacity: 0.7;
 }
 
-.dar {
+.dara {
   height: 180px;
   width: auto;
   margin: 20px;
   margin-top: 120px;
   margin-bottom: 0;
 }
-.med:hover .dar {
+
+.med:hover .dara {
   opacity: 0.7;
 }
+
 .ins {
   width: 240px;
   height: auto;
@@ -105,45 +125,105 @@ p {
   opacity: 0.7;
 }
 
-#buy {
+#buy:hover {
+  opacity: 0.5;
+}
+
+.epi2 {
+  width: 240px;
+  height: auto; 
   display: block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15px;
+  animation: fadeIn 4s;
 }
 
-.epi2 {
-  width: 240px;
-  height: auto;
-}
-.dar2 {
+.dara2 {
   height: 230px;
   width: auto;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  animation: fadeIn 4s;
 }
+
 .ins2 {
   height: 210px;
   width: auto;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  animation: fadeIn 4s;
 }
 
 canvas {
   display: block;
 }
 
+.link {
+  font-size: 140%;
+  color:white;
+}
+
 a {
   text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  color: #9200bf;
 }
 
 a:hover .link {
   color: #9200bf;
 }
 
-.link {
-  font-size: 130%;
-}
-
 a:-webkit-any-link {
-  color: -webkit-link;
   cursor: pointer;
 }
+
+.black {
+  background: black;
+}
+
+.description {
+  color:white;
+  width:700px;
+  margin:auto;
+  font-size:120%;
+  padding-bottom:50px;
+  filter: blur(4px);
+}
+
+.description:hover {
+  filter: blur(0px);
+}
+
+.underline {
+  text-decoration:underline;
+}
+
+#solution {
+  width: 920px;
+  margin:auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.solution {
+  font-size:180%;
+  text-align:left;
+}
+
+.solution:hover {
+  text-decoration:underline;
+}
+
+
 
