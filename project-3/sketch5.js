@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let imgs = [];
 
 function preload() {
