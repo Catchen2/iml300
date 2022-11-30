@@ -1,9 +1,16 @@
-html,
-body {
+html {
   margin: 0;
   padding: 0;
-  color:white;
+  color: white;
   font-family: "JetBrains Mono", monospace;
+}
+
+.page {
+  padding-bottom: 0;
+  background: black;
+  background-size: 60px 60px;
+  background-image: linear-gradient(to right, grey 0.6px, transparent 1px),
+    linear-gradient(to bottom, grey 0.6px, transparent 1px);
 }
 
 h1 {
@@ -13,9 +20,9 @@ h1 {
 }
 
 .title {
-  text-align:center;
-  padding-top:80px;
-  font-size:200%;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 200%;
 }
 
 .fadein {
@@ -37,12 +44,11 @@ p {
 }
 
 .basket {
-  display:block;
-  position:relative;
-  width:600px;
-  height:auto;
-  margin:auto;
-  padding-bottom:0;
+  display: block;
+  position: relative;
+  width: 950px;
+  height: auto;
+  margin: auto;
 }
 
 #meds {
@@ -81,7 +87,8 @@ p {
 }
 
 #add {
-  color:white;
+  color: white;
+  height: 120px;
 }
 
 #add:hover {
@@ -131,7 +138,7 @@ p {
 
 .epi2 {
   width: 240px;
-  height: auto; 
+  height: auto;
   display: block;
   position: relative;
   margin-left: auto;
@@ -168,12 +175,12 @@ canvas {
 
 .link {
   font-size: 140%;
-  color:white;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 a:hover {
@@ -182,6 +189,7 @@ a:hover {
 
 a:hover .link {
   color: #9200bf;
+  text-decoration:underline;
 }
 
 a:-webkit-any-link {
@@ -193,11 +201,11 @@ a:-webkit-any-link {
 }
 
 .description {
-  color:white;
-  width:700px;
-  margin:auto;
-  font-size:120%;
-  padding-bottom:50px;
+  color: white;
+  width: 700px;
+  margin: auto;
+  font-size: 120%;
+  padding-bottom: 50px;
   filter: blur(4px);
 }
 
@@ -206,24 +214,23 @@ a:-webkit-any-link {
 }
 
 .underline {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 #solution {
-  width: 920px;
-  margin:auto;
+  width: 820px;
+  margin: auto;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .solution {
-  font-size:180%;
-  text-align:left;
+  font-size: 160%;
+  text-align: left;
 }
 
 .solution:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
-
 
 
