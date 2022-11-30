@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Insulin</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-    <title>Insulin</title>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
     <script src="sketch.js"></script>
-    
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=JetBrains+Mono&family=Roboto&family=Roboto+Mono&family=Sono&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Insulin: $98.70</h1>
-    <img class="ins2" src="asset/insulin.png" alt="">
-    
-    <a href="page-5.html"><p>Who can help?</p></a>
-    <a href="index.html"><p>Buy more</p></a>
-    
-</body>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Fuzzy+Bubbles&family=JetBrains+Mono&family=Roboto&family=Roboto+Mono&family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="fadein">Insulin: $315</h1>
+    <img
+      id="buy"
+      class="ins2"
+      src="https://cdn.glitch.global/3c6c63b1-b30e-4912-9dcc-f9f5cb30d592/insulin.png?v=1669588360257"
+      alt=""
+    />
+
+    <h2 class="title">Why is Insulin so expensive?</h2>
+
+    <p class="description">
+      <a
+        href="https://www.nbcdfw.com/news/local/local-pharmacists-concerned-about-soaring-cost-of-insulin/2911696/"
+        class="underline"
+      >
+        Insulin prices in the United States have tripled in the past decade.
+      </a>
+     As of March 2022, the price for a vial of insulin ranges from $50 to over $1,000, and a pack of pens ranges from $45 to over $600.
+    </p>
+
+    <a href="page-5.html"><p class="link">Checkout</p></a>
+    <a href="index.html"><p class="link">Buy more</p></a>
+  </body>
 </html>
