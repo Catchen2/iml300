@@ -6,7 +6,6 @@ let nextChange3 = timer + timer + timer + timer;
 let nextChange4 = timer + timer + timer + timer + timer;
 let nextChange5 = timer + timer + timer + timer + timer + timer;
 let nextChange6 = timer + timer + timer + timer + timer + timer + timer;
-let nextChange7 = timer + timer + timer + timer + timer + timer + timer + timer;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
