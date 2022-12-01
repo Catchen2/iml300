@@ -1,16 +1,20 @@
 html {
   margin: 0;
   padding: 0;
-  color: #FFFFFF	;
+  color: white;
   font-family: "JetBrains Mono", monospace;
 }
 
 .page {
   padding-bottom: 0;
-  background: #000000	;
+  background: black;
   background-size: 60px 60px;
-  background-image: linear-gradient(to right, #808080 0.6px, transparent 1px),
-    linear-gradient(to bottom, #808080 0.6px, transparent 1px);
+  background-image: linear-gradient(to right, grey 0.6px, transparent 1px),
+    linear-gradient(to bottom, grey 0.6px, transparent 1px);
+}
+
+.pg-1 {
+  height: 110vh;
 }
 
 h1 {
@@ -44,11 +48,11 @@ p {
 }
 
 .basket {
-  display: block;
-  position: relative;
-  width: 950px;
-  height: auto;
-  margin: auto;
+  position: fixed;
+  width: 690px;
+  margin-top: 150px;
+  margin-left: 780px;
+  z-index: 1;
 }
 
 #meds {
@@ -87,7 +91,7 @@ p {
 }
 
 #add {
-  color: #FFFFFF	;
+  color: white;
   height: 120px;
 }
 
@@ -175,12 +179,12 @@ canvas {
 
 .link {
   font-size: 140%;
-  color: #FFFFFF	;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: #FFFFFF	;
+  color: white;
 }
 
 a:hover {
@@ -189,7 +193,7 @@ a:hover {
 
 a:hover .link {
   color: #9200bf;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 a:-webkit-any-link {
@@ -197,11 +201,11 @@ a:-webkit-any-link {
 }
 
 .black {
-  background: #000000	;
+  background: black;
 }
 
 .description {
-  color: #FFFFFF	;
+  color: white;
   width: 700px;
   margin: auto;
   font-size: 120%;
@@ -217,7 +221,10 @@ a:-webkit-any-link {
   text-decoration: underline;
 }
 
-
+.box {
+  width: 900px;
+  display: flex;
+}
 
 #solution h2 {
   overflow: hidden;
@@ -230,10 +237,10 @@ a:-webkit-any-link {
   width: 540px;
   margin: auto;
   padding-bottom: 30px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 20px;
-  background:#000000;
+  background: black;
 }
 
 .solution {
@@ -254,10 +261,10 @@ a:-webkit-any-link {
   width: 660px;
   margin: auto;
   padding-bottom: 40px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 80%;
-  background: #000000;
+  background: black;
 }
 
 #about h2 {
@@ -282,5 +289,11 @@ a:-webkit-any-link {
 
 #footer {
   padding-bottom: 20px;
+}
+
+#footer1 {
+  padding-top: 75px;
+  padding-bottom: 20px;
+  margin-left:-800px;
 }
 
