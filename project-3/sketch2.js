@@ -29,11 +29,13 @@ function draw() {
     strokeWeight(1);
     circle(x, y, 10);
     text("2011", x - 12, y - 20, 40, 40);
+    text("$110", x - 12, y +10, 40, 40);
     nextChange = millis() + timer;
   }
   if (millis() > nextChange1) {
     strokeWeight(1);
     text("2012", x + 88, y - 70, 40, 40);
+    text("$250", x +88, y - 40, 40, 40);
     strokeWeight(2);
     circle(x + 100, y - 50, 10);
     line(x, y, x + 100, y - 50);
@@ -42,6 +44,7 @@ function draw() {
   if (millis() > nextChange2) {
     strokeWeight(1);
     text("2013", x + 188, y - 120, 40, 40);
+    text("$340", x + 188, y - 90, 40, 40);
     strokeWeight(2);
     circle(x + 200, y - 100, 10);
     line(x + 100, y - 50, x + 200, y - 100);
@@ -51,6 +54,7 @@ function draw() {
   if (millis() > nextChange3) {
     strokeWeight(1);
     text("2014", x + 288, y - 170, 40, 40);
+    text("$450", x + 288, y - 140, 40, 40);
     strokeWeight(2);
     circle(x + 300, y - 150, 10);
     line(x + 200, y - 100, x + 300, y - 150);
@@ -60,6 +64,7 @@ function draw() {
   if (millis() > nextChange4) {
     strokeWeight(1);
     text("2015", x + 388, y - 220, 40, 40);
+    text("$560", x + 388, y - 190, 40, 40);
     strokeWeight(2);
     circle(x + 400, y - 200, 10);
     line(x + 300, y - 150, x + 400, y - 200);
@@ -69,6 +74,7 @@ function draw() {
   if (millis() > nextChange5) {
     strokeWeight(1);
     text("2016", x + 488, y - 280, 40, 40);
+    text("$690", x + 488, y - 250, 40, 40);
     strokeWeight(2);
     ellipse(x + 500, y - 260, 10);
     line(x + 400, y - 200, x + 500, y - 260);
@@ -78,6 +84,7 @@ function draw() {
   if (millis() > nextChange6) {
     strokeWeight(1);
     text("2017", x + 588, y - 270, 40, 40);
+    text("$680", x + 588, y - 240, 40, 40);
     strokeWeight(2);
     circle(x + 600, y - 250, 10);
     line(x + 500, y - 260, x + 600, y - 250);
@@ -87,6 +94,7 @@ function draw() {
   if (millis() > nextChange7) {
     strokeWeight(1);
     text("2018", x + 688, y - 260, 40, 40);
+    text("$670", x + 688, y - 230, 40, 40);
     strokeWeight(2);
     circle(x + 700, y - 240, 10);
     line(x + 600, y - 250, x + 700, y - 240);
