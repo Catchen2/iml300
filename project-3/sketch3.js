@@ -25,7 +25,7 @@ function draw() {
   strokeWeight(1);
 
   let x = 20;
-  let y = 760;
+  let y = 600;
 
   if (millis() > nextChange) {
     strokeWeight(1);
