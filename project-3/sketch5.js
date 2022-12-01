@@ -3,7 +3,7 @@ let imgs = [];
 
 function preload() {
   for (var i = 0; i < 2; i++) {
-    imgs[i] = loadImage("https://cdn.glitch.global/3c6c63b1-b30e-4912-9dcc-f9f5cb30d592/pill.png?v=1669847759376");
+    imgs[i] = loadImage("asset/pill.png");
   }
 }
 
