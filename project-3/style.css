@@ -255,6 +255,7 @@ a:-webkit-any-link {
   margin: auto;
   padding-bottom: 50px;
   font-size: 90%;
+  background: black;
 }
 
 #about h2 {
