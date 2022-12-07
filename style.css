@@ -1,3 +1,146 @@
 html {
-background:grey;
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+.pink {
+  color: #ffd9da;
+}
+
+#top {
+  display: flex;
+  margin-left: 38%;
+  padding-top: 210px;
+  height: 145px;
+  width: 363px;
+  font-size: 400%;
+}
+
+.top .about {
+  visibility: hidden;
+  width: 400px;
+  background-color: #ffd9da;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30%;
+  position: absolute;
+  z-index: 1;
+}
+
+.top:hover .about {
+  visibility: visible;
+}
+
+#projects {
+  position: relative;
+  margin: auto;
+  width: 900px;
+  padding-top: 120px;
+}
+
+#navbar {
+  text-align: center;
+  font-size: 180%;
+}
+
+#nav .nav {
+  margin: 20px;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+}
+
+.nav:hover {
+  text-decoration: underline;
+  background-color: #ffd9da;
+  cursor: pointer;
+}
+
+.sub {
+  font-size: 145%;
+}
+
+/* header with arrow */
+
+.header {
+  position: relative;
+  width: 1050px;
+  margin: auto;
+}
+
+.arrow {
+  padding-top: 42px;
+  position: absolute;
+  left: 0%;
+}
+
+img {
+  width: 30px;
+}
+
+img:hover {
+  cursor: pointer;
+  border-bottom: 3px solid black;
+}
+
+.title {
+  font-size: 300%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  left: 41.5%;
+}
+
+.work {
+  text-decoration: underline;
+  color: black;
+  font-size:120%;
+  
+}
+
+.work:hover {
+  background-color: #ffd9da;
+}
+
+
+#sketches {
+  display: flex;
+  width: 830px;
+  margin:auto;
+  padding-top:120px;
+}
+
+#sketches2 {
+  display: flex;
+  width: 830px;
+  margin:auto;
+  padding-top:20px;
+}
+
+
+.frame {
+  margin:40px;
+}
+
+.sketch {
+  position:relative;
+  text-decoration: underline;
+  color: black;
+  font-size:120%;  
+  margin-left:10px;
+}
+
+.sketch:hover {
+  background-color: #ffd9da;
+}
+
+iframe {
+  width:200px;
+  height:200px;
+}
+
+footer {
+  padding-top: 200px;
 }
